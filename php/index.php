@@ -41,7 +41,7 @@
             </thead>
             <tbody>
 
-                <!-- IMPLEMENTAZIONE PHP -->
+                <!-- IMPLEMENTAZIONE PHP  -->
                 <?php
 
                     //PARCHEGGIO
