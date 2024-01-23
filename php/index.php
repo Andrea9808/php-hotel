@@ -34,7 +34,8 @@
             <thead>
                 <tr>
                     <th>Name</th>
-                    <th>description</th>
+                    <th>Description</th>
+                    <th>Parking</th>
                     <th>Vote</th>
                     <th>Distance to Center</th>
                 </tr>
@@ -135,6 +136,7 @@
                         echo "<tr>";
                             echo "<td>" . $hotel["name"] . "</td>";
                             echo "<td>" . $hotel["description"] . "</td>";
+                            echo "<td>" . ($hotel['parking'] ? 'SI' : 'NO') . "</td>";
                             echo "<td>" . $hotel["vote"] . "</td>";
                             echo "<td>" .$hotel["distance_to_center"] . " m" . "</td>";
                         echo "</tr>";
